@@ -1,3 +1,9 @@
+Environment
+python 3.9.7
+torch 2.0.0
+torchvision 0.15.1
+numpy 1.20.3
+
 To train the model:
 
 python train.py -root /data/E2H_source/ -mode rgb -save_model I3D_RGB_HMDB -dset H -CLASS_NUM 13 -trainfile ./targetlistname_My_H.txt -r1 0.2 -r2 0.3 -th 0.9 -lr 0.025 -sset E -droot /data/HMDB51-frame -PRE 5 -method Pro -r3 0.5
