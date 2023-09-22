@@ -1,8 +1,8 @@
-Environment
-python 3.9.7
-torch 2.0.0
-torchvision 0.15.1
-numpy 1.20.3
+Environment\\
+python 3.9.7\\
+torch 2.0.0\\
+torchvision 0.15.1\\
+numpy 1.20.3\\
 
 To train the model:
 
